@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoUI.Screens.GridTipCalculatorScreen"
+             Title="GridTipCalculatorScreen">
+    <Grid ColumnDefinitions="*,*"
+          RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto"
+          Padding="40">
+        <Label Text="Bill"
+               VerticalOptions="Center"
+               Grid.Row="0" 
+               Grid.Column="0"/>
+        <!--If you knows what is the default value in the property, you don't need to set the value-->
+        <Label Text="Top"
+               VerticalOptions="Center"
+               Grid.Row="1"
+               Grid.Column="0"/>
+    </Grid>
+</ContentPage>

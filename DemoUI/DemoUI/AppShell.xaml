@@ -5,11 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:DemoUI"
     xmlns:screens="clr-namespace:DemoUI.Screens"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
         Title="Notes"
         ContentTemplate="{DataTemplate screens:NotesScreen}"
         Route="NotesScreens" />
+    <ShellContent 
+        Title="Grid Tip Calculator"
+        ContentTemplate="{DataTemplate screens:GridTipCalculatorScreen}"
+        Route="GridTipScreen"/>
 
 </Shell>

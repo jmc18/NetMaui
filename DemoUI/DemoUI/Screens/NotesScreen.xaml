@@ -7,6 +7,24 @@
     <VerticalStackLayout Margin="30" Spacing="10">
         <Label Text="Notes" HorizontalOptions="Center" FontAttributes="Bold" />
         <Editor x:Name="editor" Placeholder="Enter your note" HeightRequest="200" />
+
+        <Grid ColumnDefinitions="Auto, Auto" HorizontalOptions="Center"
+              ColumnSpacing="30">
+            <Button Grid.Column="0"
+                    Text="Save"
+                    WidthRequest="100"
+                    Clicked="OnSaveButtonClick"
+                    TextColor="White"
+                    BackgroundColor="Black"/>
+
+            <Button Grid.Column="1"
+                    Text="Delete"
+                    WidthRequest="100"
+                    Clicked="OnSaveDeleteClick"
+                    TextColor="White"
+                    BackgroundColor="Black"/>
+        </Grid>
+        
     </VerticalStackLayout>
 
 </ContentPage>

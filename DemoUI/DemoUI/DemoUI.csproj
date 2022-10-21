@@ -49,6 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Screens\GridTipCalculatorScreen.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Screens\NotesScreen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
